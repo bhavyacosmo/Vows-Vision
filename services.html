@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services | EventManager</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!-- MAIN SITE CSS (THIS WAS MISSING) -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- INTERNAL CSS (ONLY FOR THIS PAGE) -->
+  <style>
+    .service-box {
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 40px;
+      transition: all 0.4s ease;
+      border: 1px solid #eee;
+    }
+
+    .service-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+    }
+
+    .service-box img {
+      width: 100%;
+      border-radius: 15px;
+      transition: transform 0.4s ease;
+    }
+
+    .service-box:hover img {
+      transform: scale(1.07);
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===== NAVBAR (SAME AS HOME, NO CHANGE) ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <span class="text-warning">VOWS & VISION</span>
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="height:80px"></div>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h1 class="fw-bold">Our Services</h1>
+    <p class="text-muted">End-to-end event solutions under one roof</p>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="py-5">
+  <div class="container">
+
+    <!-- Photography -->
+    <div class="service-box row align-items-center">
+      <div class="col-md-4">
+        <img src="assets/images/service-photography.jpg">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Photography & Videography</h4>
+        <p class="text-muted">
+          Professional photography and videography capturing every moment of your event with perfection.
+        </p>
+        <ul class="text-muted">
+          <li>Pre-event shoots</li>
+          <li>During-event coverage</li>
+          <li>Post-event editing & highlights</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Catering -->
+    <div class="service-box row align-items-center">
+      <div class="col-md-4">
+        <img src="assets/images/service-catering.jpg">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Catering Services</h4>
+        <p class="text-muted">
+          Customized catering options designed according to taste, budget, and event type.
+        </p>
+        <ul class="text-muted">
+          <li>Veg & Non-Veg menus</li>
+          <li>Food-only or food + drinks</li>
+          <li>Customized menu planning</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Rituals -->
+    <div class="service-box row align-items-center">
+      <div class="col-md-4">
+        <img src="assets/images/service-rituals.avif">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Rituals Preparation</h4>
+        <p class="text-muted">
+          Complete preparation and coordination of traditional rituals and ceremonies.
+        </p>
+        <ul class="text-muted">
+          <li>Ritual material arrangement</li>
+          <li>Pooja setup</li>
+          <li>Priest coordination</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Venue -->
+    <div class="service-box row align-items-center">
+      <div class="col-md-4">
+        <img src="assets/images/service-venue.jpg">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Venue Booking</h4>
+        <p class="text-muted">
+          We help you select venues according to your budget and preferences.
+        </p>
+        <ul class="text-muted">
+          <li>Budget to luxury venues</li>
+          <li>Indoor & outdoor locations</li>
+          <li>Price-based suggestions</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Destination Wedding -->
+    <div class="service-box row align-items-center">
+      <div class="col-md-4">
+        <img src="assets/images/service-destination.webp">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Destination Wedding</h4>
+        <p class="text-muted">
+          Tell us your dream destination — we handle everything else.
+        </p>
+        <ul class="text-muted">
+          <li>Destination planning</li>
+          <li>Travel & stay management</li>
+          <li>Complete wedding execution</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Gifting -->
+    <div class="service-box row align-items-center">
+      <div class="col-md-4">
+        <img src="assets/images/service-gifting.jpg">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Gifting Department</h4>
+        <p class="text-muted">
+          Customized and premium gifting solutions for guests and special occasions.
+        </p>
+        <ul class="text-muted">
+          <li>Personalized gifts</li>
+          <li>Bulk gifting</li>
+          <li>Premium packaging</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Invitation -->
+    <div class="service-box row align-items-center">
+      <div class="col-md-4">
+        <img src="assets/images/service-invitation.avif">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Invitation Cards</h4>
+        <p class="text-muted">
+          Creative invitation designs that match your event theme.
+        </p>
+        <ul class="text-muted">
+          <li>Printed cards</li>
+          <li>Digital invitations</li>
+          <li>Theme-based designs</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== SERVICE ENQUIRY FORM START ===== -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Service Enquiry</h2>
+      <p class="text-muted">
+        Tell us about your event and services you are interested in
+      </p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+
+        <form id="serviceForm" class="p-4 bg-white shadow rounded">
+
+          <!-- Name -->
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" id="name" class="form-control" required>
+          </div>
+
+          <!-- Phone -->
+          <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input type="tel" id="phone" class="form-control" required>
+          </div>
+
+          <!-- City & State -->
+          <div class="mb-3">
+            <label class="form-label">City & State</label>
+            <input type="text" id="location" class="form-control" placeholder="City, State" required>
+          </div>
+
+          <!-- Services (Multi Select) -->
+          <div class="mb-3">
+            <label class="form-label">Services Required</label>
+            <select id="services" class="form-select" multiple required>
+              <option>Photography & Videography</option>
+              <option>Catering Services</option>
+              <option>Rituals Preparation</option>
+              <option>Venue Booking</option>
+              <option>Destination Wedding</option>
+              <option>Gifting Department</option>
+              <option>Invitation Cards</option>
+            </select>
+            <small class="text-muted">
+              (Hold Ctrl / Cmd to select multiple services)
+            </small>
+          </div>
+
+          <!-- Event Type -->
+          <div class="mb-3">
+            <label class="form-label">Event Type</label>
+            <input type="text" id="eventType" class="form-control" placeholder="Wedding, Birthday, Corporate, etc." required>
+          </div>
+
+          <!-- Event Date -->
+          <div class="mb-4">
+            <label class="form-label">Event Date</label>
+            <input type="date" id="eventDate" class="form-control" required>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit" class="btn btn-success w-100">
+            Send Enquiry on WhatsApp
+          </button>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== SERVICE ENQUIRY FORM END ===== -->
+
+<!-- ===== FOOTER (SAME AS HOME) ===== -->
+ <!-- ===== FOOTER START ===== -->
+<footer class="footer-section">
+  <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- About -->
+      <div class="col-md-6 col-lg-4">
+        <h5 class="footer-title">VOWS & VISION</h5>
+        <p class="footer-text">
+          Vows & Vision is a complete event management system designed to plan,
+          organize, and execute events efficiently with a user-friendly platform.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-6 col-lg-2">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="footer-title">Our Services</h6>
+        <ul class="footer-links">
+          <li>Wedding Events</li>
+          <li>Corporate Events</li>
+          <li>Birthday Parties</li>
+          <li>Concerts</li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="footer-title">Contact</h6>
+        <p><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India</p>
+        <p><i class="fas fa-envelope"></i> vows&vision4@gmail.com</p>
+        <p><i class="fas fa-phone-alt"></i> +91 9999999999</p>
+
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom text-center py-3">
+    <p class="mb-0">
+      © 2026 Vows&Vision. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+<!-- ===== FOOTER END ===== -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.getElementById("serviceForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const location = document.getElementById("location").value;
+  const eventType = document.getElementById("eventType").value;
+  const eventDate = document.getElementById("eventDate").value;
+
+  const servicesSelect = document.getElementById("services");
+  const selectedServices = Array.from(servicesSelect.selectedOptions)
+                                .map(option => option.value)
+                                .join(", ");
+
+  const whatsappNumber = "918815280377"; // ← CHANGE THIS
+
+  const message = 
+`Hello Vows&Vision,
+
+I would like to enquire about your services.
+
+Name: ${name}
+Phone: ${phone}
+Location: ${location}
+Event Type: ${eventType}
+Event Date: ${eventDate}
+Services Required: ${selectedServices}`;
+
+  const whatsappURL = 
+`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, "_blank");
+});
+</script>
+
+</body>
+</html>

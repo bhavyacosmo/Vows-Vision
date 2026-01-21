@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Management System</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR START ===== -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+      
+      <!-- Logo -->
+      <a class="navbar-brand fw-bold" href="index.html">
+        <span class="text-warning">VOWS & VISION</span>
+      </a>
+
+      <!-- Mobile Toggle -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- CTA Button -->
+        <a href="contact.html" class="btn btn-warning ms-lg-3">
+          Book Event
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- ===== HEADER / NAVBAR END ===== -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ===== HERO SECTION START ===== -->
+  <section class="hero-section">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content text-center">
+      <h1 class="hero-title">
+        Making Your <span>Events</span> Memorable
+      </h1>
+      <p class="hero-subtitle">
+        We plan, design, and execute unforgettable events with perfection.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="events.html" class="btn btn-warning btn-lg me-3">
+          Explore Events
+        </a>
+        <a href="contact.html" class="btn btn-outline-light btn-lg">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- ===== HERO SECTION END ===== -->
+<!-- ===== ABOUT SECTION START ===== -->
+<section class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Image -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img
+          src="assets/images/about.jpg"
+          alt="About Event Management"
+          class="img-fluid rounded shadow"
+        />
+      </div>
+
+      <!-- Content -->
+      <div class="col-lg-6">
+        <h6 class="text-warning fw-semibold">About Us</h6>
+        <h2 class="fw-bold mb-3">
+          We Create Experiences That Last Forever
+        </h2>
+        <p class="text-muted">
+          Our event management system helps plan, organize, and execute events
+          seamlessly. From weddings to corporate events, we ensure every detail
+          is handled professionally.
+        </p>
+
+        <p class="text-muted">
+          With experienced planners, creative designs, and reliable execution,
+          we turn your vision into reality.
+        </p>
+
+        <a href="about.html" class="btn btn-warning mt-3">
+          Learn More
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ===== ABOUT SECTION END ===== -->
+<!-- ===== SERVICES SECTION START ===== -->
+<section class="services-section py-5 bg-light">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h6 class="text-warning fw-semibold">Our Services</h6>
+      <h2 class="fw-bold">What We Offer</h2>
+      <p class="text-muted">
+        We provide end-to-end event planning and management services.
+      </p>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card text-center p-4">
+          <i class="fas fa-ring service-icon"></i>
+          <h5 class="mt-3">Wedding Events</h5>
+          <p class="text-muted">
+            Elegant and memorable wedding planning with flawless execution.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card text-center p-4">
+          <i class="fas fa-briefcase service-icon"></i>
+          <h5 class="mt-3">Corporate Events</h5>
+          <p class="text-muted">
+            Professional management for conferences, meetings, and seminars.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card text-center p-4">
+          <i class="fas fa-birthday-cake service-icon"></i>
+          <h5 class="mt-3">Birthday Parties</h5>
+          <p class="text-muted">
+            Fun-filled birthday celebrations customized to your needs.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card text-center p-4">
+          <i class="fas fa-music service-icon"></i>
+          <h5 class="mt-3">Concerts</h5>
+          <p class="text-muted">
+            Large-scale concert planning with sound, lights, and crowd control.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card text-center p-4">
+          <i class="fas fa-theater-masks service-icon"></i>
+          <h5 class="mt-3">Cultural Events</h5>
+          <p class="text-muted">
+            Traditional and cultural events organized with creativity.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card text-center p-4">
+          <i class="fas fa-glass-cheers service-icon"></i>
+          <h5 class="mt-3">Private Parties</h5>
+          <p class="text-muted">
+            Exclusive private parties with premium arrangements.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ===== SERVICES SECTION END ===== -->
+<!-- ===== EVENTS SECTION START ===== -->
+<section class="events-section py-5">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h6 class="text-warning fw-semibold">Upcoming Events</h6>
+      <h2 class="fw-bold">Our Featured Events</h2>
+      <p class="text-muted">
+        Explore our upcoming events and book your spot.
+      </p>
+    </div>
+
+    <!-- Events Grid -->
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="event-card">
+          <img src="assets/images/about.jpg" alt="Wedding Event">
+          <div class="event-content">
+            <h5>AP Dillon Concert</h5>
+            <p><i class="fas fa-calendar-alt"></i> 15 March 2026</p>
+            <p><i class="fas fa-map-marker-alt"></i> Mumbai, India</p>
+            <a href="events.html" class="btn btn-warning btn-sm mt-2">
+              View Details
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="event-card">
+          <img src="assets/images/holi party.avif" alt="Corporate Event">
+          <div class="event-content">
+            <h5>Holi Party</h5>
+            <p><i class="fas fa-calendar-alt"></i> 20 March 2026</p>
+            <p><i class="fas fa-map-marker-alt"></i> Bengaluru, India</p>
+            <a href="events.html" class="btn btn-warning btn-sm mt-2">
+              View Details
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="event-card">
+          <img src="assets/images/samayraina.jpg" alt="Music Concert">
+          <div class="event-content">
+            <h5>Laughter Show With Samay Raina</h5>
+            <p><i class="fas fa-calendar-alt"></i> 10 April 2026</p>
+            <p><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+            <a href="events.html" class="btn btn-warning btn-sm mt-2">
+              View Details
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ===== EVENTS SECTION END ===== -->
+<!-- ===== GALLERY SECTION START ===== -->
+<section class="gallery-section py-5 bg-light">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h6 class="text-warning fw-semibold">Gallery</h6>
+      <h2 class="fw-bold">Our Event Moments</h2>
+      <p class="text-muted">
+        A glimpse of the events we have successfully managed.
+      </p>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-md-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery1.jpg" alt="Event Gallery">
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery2.webp" alt="Event Gallery">
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery3.webp" alt="Event Gallery">
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery4.jpg" alt="Event Gallery">
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery5.jpg" alt="Event Gallery">
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery6.jfif" alt="Event Gallery">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ===== GALLERY SECTION END ===== -->
+<!-- ===== TESTIMONIALS SECTION START ===== -->
+<section class="testimonials-section py-5">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h6 class="text-warning fw-semibold">Testimonials</h6>
+      <h2 class="fw-bold">What Our Clients Say</h2>
+      <p class="text-muted">
+        Hear from our happy clients who trusted us with their events.
+      </p>
+    </div>
+
+    <!-- Testimonials Grid -->
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card p-4">
+          <p class="testimonial-text">
+            “The team managed our wedding perfectly. Everything was smooth and
+            beautifully organized.”
+          </p>
+          <h6 class="fw-bold mb-0">Aarav Sharma</h6>
+          <small class="text-muted">Wedding Client</small>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card p-4">
+          <p class="testimonial-text">
+            “Excellent planning and execution for our corporate event. Highly
+            professional service.”
+          </p>
+          <h6 class="fw-bold mb-0">Neha Verma</h6>
+          <small class="text-muted">Corporate Client</small>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial-card p-4">
+          <p class="testimonial-text">
+            “Amazing experience! The concert setup and management were top-notch.”
+          </p>
+          <h6 class="fw-bold mb-0">Rohit Mehta</h6>
+          <small class="text-muted">Concert Organizer</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ===== TESTIMONIALS SECTION END ===== -->
+<!-- ===== CONTACT SECTION START ===== -->
+<section class="contact-section py-5 bg-light">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h6 class="text-warning fw-semibold">Contact Us</h6>
+      <h2 class="fw-bold">Get In Touch</h2>
+      <p class="text-muted">
+        Have questions or want to plan an event? Reach out to us.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Contact Form -->
+      <div class="col-lg-6">
+        <form class="contact-form p-4 bg-white shadow rounded">
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Your name" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" placeholder="Your email" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" placeholder="Your phone" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="4" placeholder="Your message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-warning w-100">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-6">
+        <div class="contact-info p-4">
+          <h5 class="fw-bold mb-3">Contact Information</h5>
+
+          <p>
+            <i class="fas fa-map-marker-alt"></i>
+            Jaipur, Rajasthan, India
+          </p>
+
+          <p>
+            <i class="fas fa-envelope"></i>
+            vows&vision4@gmail.com
+          </p>
+
+          <p>
+            <i class="fas fa-phone-alt"></i>
+            +91 9999999999
+          </p>
+
+          <p class="text-muted mt-4">
+            Our team will respond within 24 hours.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ===== CONTACT SECTION END ===== -->
+<!-- ===== FOOTER START ===== -->
+<footer class="footer-section">
+  <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- About -->
+      <div class="col-md-6 col-lg-4">
+        <h5 class="footer-title">VOWS & VISION</h5>
+        <p class="footer-text">
+          Vows & Vision is a complete event management system designed to plan,
+          organize, and execute events efficiently with a user-friendly platform.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-6 col-lg-2">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="footer-title">Our Services</h6>
+        <ul class="footer-links">
+          <li>Wedding Events</li>
+          <li>Corporate Events</li>
+          <li>Birthday Parties</li>
+          <li>Concerts</li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="footer-title">Contact</h6>
+        <p><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India</p>
+        <p><i class="fas fa-envelope"></i> vows&vision4@gmail.com</p>
+        <p><i class="fas fa-phone-alt"></i> +91 9999999999</p>
+
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom text-center py-3">
+    <p class="mb-0">
+      © 2026 Vows&Vision. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+<!-- ===== FOOTER END ===== -->
+
+</body>
+</html>

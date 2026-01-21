@@ -1,0 +1,275 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== NAVBAR CUSTOM STYLE ===== */
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 15px 0;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ffc107;
+}
+
+.btn-warning {
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 30px;
+}
+/* ===== HERO SECTION ===== */
+.hero-section {
+  height: 100vh;
+  background: url("../assets/images/hero.jpg") no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-title span {
+  color: #ffc107;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons .btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+/* ===== ABOUT SECTION ===== */
+.about-section h2 {
+  font-size: 2.2rem;
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+/* ===== SERVICES SECTION ===== */
+.service-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 40px;
+  color: #ffc107;
+}
+/* ===== EVENTS SECTION ===== */
+.event-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.event-card:hover {
+  transform: translateY(-8px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.event-content {
+  padding: 20px;
+}
+
+.event-content h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.event-content p {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.event-content i {
+  color: #ffc107;
+  margin-right: 6px;
+}
+/* ===== GALLERY SECTION ===== */
+.gallery-item {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+/* ===== TESTIMONIALS SECTION ===== */
+.testimonial-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 15px;
+  color: #555;
+}
+/* ===== CONTACT SECTION ===== */
+.contact-info i {
+  color: #ffc107;
+  margin-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border-radius: 8px;
+}
+/* ===== FOOTER SECTION ===== */
+.footer-section {
+  background-color: #111;
+  color: #ccc;
+}
+
+.footer-title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffc107;
+}
+
+.footer-section i {
+  color: #ffc107;
+  margin-right: 8px;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-right: 12px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+.footer-bottom {
+  background-color: #000;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+section {
+  animation: fadeUp 0.8s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ===== FORCE FOOTER BACKGROUND COLOR ===== */
+.footer-section {
+  background-color: #111 !important;
+  color: #ccc;
+}
+
+.footer-bottom {
+  background-color: #000;
+  color: #aaa;
+}

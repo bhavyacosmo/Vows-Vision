@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | EventManager</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- MAIN SITE CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- INTERNAL CSS -->
+  <style>
+    body {
+      padding-top: 80px;
+      background: #f7f7f7;
+    }
+
+    /* Contact info cards */
+    .contact-card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .contact-card i {
+      font-size: 32px;
+      color: #ffc107;
+      margin-bottom: 15px;
+    }
+
+    /* Team cards */
+    .team-card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+      transition: all 0.4s ease;
+      height: 100%;
+    }
+
+    .team-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 45px rgba(0,0,0,0.15);
+    }
+
+    .team-card h5 {
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .team-card small {
+      color: #6c757d;
+    }
+
+    .map-frame {
+      width: 100%;
+      height: 380px;
+      border: none;
+      border-radius: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <span class="text-warning">VOWS & VISION</span>
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h1 class="fw-bold">Contact Us</h1>
+    <p class="text-muted">Get in touch with the right expert from our team</p>
+  </div>
+</section>
+
+<!-- ===== CONTACT INFO ===== -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="contact-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <h5>Address</h5>
+          <p class="text-muted mb-0">Jaipur, Rajasthan, India</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h5>Email</h5>
+          <p class="text-muted mb-0">vows&vision4@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="contact-card">
+          <i class="fas fa-phone-alt"></i>
+          <h5>Phone</h5>
+          <p class="text-muted mb-0">+91 9999999999</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT OUR TEAM (ROW WISE) ===== -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-5">Contact Our Team</h2>
+
+    <!-- Member 1 -->
+    <div class="row align-items-center bg-white rounded-4 shadow-sm p-4 mb-4">
+      <div class="col-md-8">
+        <h5 class="fw-bold mb-1">Supriya Ojha</h5>
+        <p class="text-muted mb-2">Operations & Venue Strategist</p>
+        <p class="mb-1"><strong>Email:</strong> supriyasojha.com</p>
+        <p class="mb-0"><strong>Phone:</strong> +91 8529782245</p>
+      </div>
+      <div class="col-md-4 text-md-end text-center mt-3 mt-md-0">
+        <a href="https://wa.me/918529782245" target="_blank"
+           class="btn btn-success btn-lg">
+          <i class="fab fa-whatsapp me-2"></i> Send Message
+        </a>
+      </div>
+    </div>
+
+    <!-- Member 2 -->
+    <div class="row align-items-center bg-white rounded-4 shadow-sm p-4 mb-4">
+      <div class="col-md-8">
+        <h5 class="fw-bold mb-1">Tisha Khandelwal</h5>
+        <p class="text-muted mb-2">Creative Décor Designer</p>
+        <p class="mb-1"><strong>Email:</strong> tisha6456@gmail.com</p>
+        <p class="mb-0"><strong>Phone:</strong> +91 9079727803</p>
+      </div>
+      <div class="col-md-4 text-md-end text-center mt-3 mt-md-0">
+        <a href="https://wa.me/919079727803" target="_blank"
+           class="btn btn-success btn-lg">
+          <i class="fab fa-whatsapp me-2"></i> Send Message
+        </a>
+      </div>
+    </div>
+
+    <!-- Member 3 -->
+    <div class="row align-items-center bg-white rounded-4 shadow-sm p-4 mb-4">
+      <div class="col-md-8">
+        <h5 class="fw-bold mb-1">Bhavya Sharma</h5>
+        <p class="text-muted mb-2">Culinary Experience Head</p>
+        <p class="mb-1"><strong>Email:</strong> sharmabhavya400@gmail.com</p>
+        <p class="mb-0"><strong>Phone:</strong> +91 8815280377</p>
+      </div>
+      <div class="col-md-4 text-md-end text-center mt-3 mt-md-0">
+        <a href="https://wa.me/918815280377" target="_blank"
+           class="btn btn-success btn-lg">
+          <i class="fab fa-whatsapp me-2"></i> Send Message
+        </a>
+      </div>
+    </div>
+
+    <!-- Member 4 -->
+    <div class="row align-items-center bg-white rounded-4 shadow-sm p-4">
+      <div class="col-md-8">
+        <h5 class="fw-bold mb-1">Parth Sharma </h5>
+        <p class="text-muted mb-2">Event Engagement Host</p>
+        <p class="mb-1"><strong>Email:</strong> Parthutku22.com</p>
+        <p class="mb-0"><strong>Phone:</strong> +91 7877001139</p>
+      </div>
+      <div class="col-md-4 text-md-end text-center mt-3 mt-md-0">
+        <a href="https://wa.me/917877001139" target="_blank"
+           class="btn btn-success btn-lg">
+          <i class="fab fa-whatsapp me-2"></i> Send Message
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===== VISIT OFFICE ===== -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Visit Our Office</h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.052938225106!2d75.8466203759987!3d26.806442964648255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc9b5b6631f21%3A0xcb0d6b65dda0e6d7!2sBony%20Star%20Apartment!5e0!3m2!1sen!2sin!4v1769006344769!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<!-- ===== FOOTER START ===== -->
+<footer class="footer-section">
+  <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- About -->
+      <div class="col-md-6 col-lg-4">
+        <h5 class="footer-title">VOWS & VISION</h5>
+        <p class="footer-text">
+          Vows & Vision is a complete event management system designed to plan,
+          organize, and execute events efficiently with a user-friendly platform.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-6 col-lg-2">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="footer-title">Our Services</h6>
+        <ul class="footer-links">
+          <li>Wedding Events</li>
+          <li>Corporate Events</li>
+          <li>Birthday Parties</li>
+          <li>Concerts</li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="footer-title">Contact</h6>
+        <p><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India</p>
+        <p><i class="fas fa-envelope"></i> vows&vision4@gmail.com</p>
+        <p><i class="fas fa-phone-alt"></i> +91 9999999999</p>
+
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom text-center py-3">
+    <p class="mb-0">
+      © 2026 Vows&Vision. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+<!-- ===== FOOTER END ===== -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

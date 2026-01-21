@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Events | EventManager</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- INTERNAL CSS (ONLY FOR EVENTS PAGE) -->
+  <style>
+    .event-row {
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 30px;
+      transition: all 0.4s ease;
+      border: 1px solid #eee;
+    }
+
+    .event-row:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+    }
+
+    .event-row img {
+      width: 100%;
+      border-radius: 15px;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .event-row:hover img {
+      transform: scale(1.06);
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===== NAVBAR (SAME AS HOME) ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <span class="text-warning">VOWS & VISION</span>
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="height:80px"></div>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h1 class="fw-bold">Types of Events We Manage</h1>
+    <p class="text-muted">
+      We organize a wide range of events for every occasion
+    </p>
+  </div>
+</section>
+
+<!-- ===== EVENT TYPES (HORIZONTAL ROW-WISE) ===== -->
+<section class="py-5">
+  <div class="container">
+
+    <!-- Wedding -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-wedding.jpg" alt="Wedding Event">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Wedding Events</h4>
+        <p class="text-muted">
+          Complete wedding planning including rituals, decoration, catering,
+          photography, and destination weddings.
+        </p>
+      </div>
+    </div>
+
+    <!-- Corporate -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-corporate.avif" alt="Corporate Event">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Corporate Parties & Meetings</h4>
+        <p class="text-muted">
+          Professional corporate events such as meetings, product launches,
+          conferences, and annual parties.
+        </p>
+      </div>
+    </div>
+
+    <!-- Convocation -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-convocation.avif" alt="Convocation Party">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Convocation Parties</h4>
+        <p class="text-muted">
+          Celebration planning for convocation ceremonies with stage setup,
+          refreshments, and guest management.
+        </p>
+      </div>
+    </div>
+
+    <!-- Birthday -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-birthday.webp" alt="Birthday Party">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Birthday Parties</h4>
+        <p class="text-muted">
+          Theme-based birthday celebrations for kids and adults with games,
+          decoration, and entertainment.
+        </p>
+      </div>
+    </div>
+
+    <!-- Concert -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-concert.jpg" alt="Concert">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Concerts & Live Shows</h4>
+        <p class="text-muted">
+          Large-scale music concerts and live performances with stage, sound,
+          lighting, and crowd management.
+        </p>
+      </div>
+    </div>
+
+    <!-- Family -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-family.jpg" alt="Family Party">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Family & Get-Together Parties</h4>
+        <p class="text-muted">
+          Family celebrations, anniversaries, reunions, and house parties
+          planned with care and creativity.
+        </p>
+      </div>
+    </div>
+
+    <!-- Engagement -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-engagement.avif" alt="Engagement Party">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Engagement Parties</h4>
+        <p class="text-muted">
+          Elegant engagement ceremonies with decoration, rituals, photography,
+          and guest hospitality.
+        </p>
+      </div>
+    </div>
+
+    <!-- Surprise -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-surprise.avif" alt="Surprise Party">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Surprise Parties</h4>
+        <p class="text-muted">
+          Creative surprise party planning including venue selection, secrecy
+          management, and entertainment.
+        </p>
+      </div>
+    </div>
+
+    <!-- School -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-school.webp" alt="School Event">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">School & College Events</h4>
+        <p class="text-muted">
+          Annual functions, cultural events, fairs, and academic celebrations
+          for schools and colleges.
+        </p>
+      </div>
+    </div>
+
+    <!-- Kids Fair -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-4">
+        <img src="assets/images/event-kidsfair.jpg" alt="Kids Fair">
+      </div>
+      <div class="col-md-8">
+        <h4 class="fw-bold">Kids Fair & Fun Events</h4>
+        <p class="text-muted">
+          Kids fairs, fun zones, games, rides, and entertainment-focused events
+          planned with safety and joy.
+        </p>
+      </div>
+    </div>
+
+    <!-- Many More -->
+    <div class="row align-items-center event-row">
+      <div class="col-md-12 text-center">
+        <h4 class="fw-bold">And Many More Events...</h4>
+        <p class="text-muted">
+          If you have a unique event idea, just tell us your requirements —
+          we’ll plan it perfectly for you.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== FOOTER START ===== -->
+<footer class="footer-section">
+  <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- About -->
+      <div class="col-md-6 col-lg-4">
+        <h5 class="footer-title">VOWS & VISION</h5>
+        <p class="footer-text">
+          Vows & Vision is a complete event management system designed to plan,
+          organize, and execute events efficiently with a user-friendly platform.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-6 col-lg-2">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="footer-title">Our Services</h6>
+        <ul class="footer-links">
+          <li>Wedding Events</li>
+          <li>Corporate Events</li>
+          <li>Birthday Parties</li>
+          <li>Concerts</li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-md-6 col-lg-3">
+        <h6 class="footer-title">Contact</h6>
+        <p><i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India</p>
+        <p><i class="fas fa-envelope"></i> vows&vision4@gmail.com</p>
+        <p><i class="fas fa-phone-alt"></i> +91 9999999999</p>
+
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom text-center py-3">
+    <p class="mb-0">
+      © 2026 Vows&Vision. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+<!-- ===== FOOTER END ===== -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
